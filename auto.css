@@ -4,10 +4,11 @@ body {
 	overflow: hidden;
 	height: 100vh;
 	font-size: 0;
-	background-image: url('https://shuangye.drblack-system.com/BG.png');
+	background-image: url('https://www.shuangye.club/NFM.png');
 	background-position: 10% 100%;
-	background-size: auto 100%;
+	background-size: 100% auto;
 	background-repeat: no-repeat;
+  	background-attachment: fixed;
 }
 input {
 	vertical-align: top;
@@ -25,7 +26,7 @@ form {
 .logo {
 	width: 100%;
 	height: 300px;
-	background-image: url('https://shuangye.drblack-system.com/LOGO.png');
+	background-image: url('https://www.shuangye.club/OLOGO.png');
 	background-size: contain;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -39,6 +40,9 @@ form {
 .ipttxt:focus {
 	border-color: #f6b200;
 }
+.parent>input:submit {
+	background: #F6B200;
+}
 .iptsmt {
 	width: 24%;
 	height: 42px;
@@ -51,6 +55,9 @@ form {
 }
 .writer {
 	font-size: 16px;
+	position: relative;
+	width:100%; position:fixed; left:0; bottom:0;
+	text-align:center;
 }
 @media (max-width: 1335px) {
 	body {
@@ -58,6 +65,6 @@ form {
 		background-image: url();
 	}
 	.logo {
-		background-image: url('http://m.shuangye.drblack-system.com/LOGO-TMG.png');
+		background-image: url('http://m.shuangye.club/LOGO-TM.png');
 	}
 }
